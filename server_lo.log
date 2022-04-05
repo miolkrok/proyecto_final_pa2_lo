@@ -1,0 +1,56 @@
+2022-04-04 21:24:26 INFO  ClienteController:75 - 1718496944
+2022-04-04 21:24:26 INFO  GestorClienteServiceImpl:67 - pdo-356250.00-1667.50-29
+2022-04-04 21:24:26 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-05-04T22:30 - 2022-04-05T22:30
+2022-04-04 21:31:14 INFO  ClienteController:75 - 1718496944
+2022-04-04 21:35:17 INFO  ClienteController:75 - 1718496944
+2022-04-04 21:43:34 INFO  ClienteController:75 - 1718496944
+2022-04-04 21:43:34 INFO  GestorClienteServiceImpl:67 - pdo-356250.0057.501
+2022-04-04 21:43:34 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-04-13T21:43 - 2022-04-14T21:43
+2022-04-04 21:44:50 INFO  ClienteController:75 - 1718496944
+2022-04-04 21:44:50 INFO  GestorClienteServiceImpl:67 - pdo-356250.0057.501
+2022-04-04 21:44:50 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-04-21T21:44 - 2022-04-22T21:44
+2022-04-04 21:45:24 INFO  ClienteController:75 - 1718496944
+2022-04-04 21:45:24 INFO  GestorClienteServiceImpl:67 - pdo-356250.0057.501
+2022-04-04 21:45:24 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-04-21T21:44 - 2022-04-22T21:44
+2022-04-04 21:48:29 INFO  ClienteController:75 - 1718496944
+2022-04-04 21:48:29 INFO  GestorClienteServiceImpl:67 - pdo-356250.0057.501
+2022-04-04 21:48:29 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-06-29T21:48 - 2022-06-30T21:48
+2022-04-04 22:10:33 INFO  ClienteController:75 - 1718496944
+2022-04-04 22:10:51 INFO  ClienteController:75 - 1718496944
+2022-04-04 22:10:51 INFO  GestorClienteServiceImpl:67 - pdo-356250.0057.501
+2022-04-04 22:10:51 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-06-16T22:10 - 2022-06-17T22:10
+2022-04-04 22:11:11 INFO  ClienteController:95 - 2022-06-16T22:10
+2022-04-04 22:11:11 INFO  ClienteController:96 - 2526
+2022-04-04 22:14:59 INFO  ClienteController:75 - 1718496944
+2022-04-04 22:14:59 INFO  GestorClienteServiceImpl:67 - pdo-356250.0057.501
+2022-04-04 22:14:59 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-04-07T22:14 - 2022-04-08T22:14
+2022-04-04 22:15:13 INFO  ClienteController:75 - 1718496944
+2022-04-04 22:15:13 INFO  GestorClienteServiceImpl:67 - pdo-356250.00115.002
+2022-04-04 22:15:13 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-10-07T22:14 - 2022-10-09T22:14
+2022-04-04 22:16:25 INFO  ClienteController:75 - 1718496944
+2022-04-04 22:16:25 INFO  GestorClienteServiceImpl:67 - pdo-356250.00115.002
+2022-04-04 22:16:25 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-10-07T22:14 - 2022-10-09T22:14
+2022-04-04 22:16:40 INFO  ClienteController:95 - 2022-10-07T22:14
+2022-04-04 22:16:40 INFO  ClienteController:96 - 6454
+2022-04-04 22:17:08 INFO  ClienteController:95 - 2022-10-07T22:14
+2022-04-04 22:17:08 INFO  ClienteController:96 - 6454
+2022-04-05 02:27:39 INFO  ClienteController:83 - 1718496944
+2022-04-05 02:27:39 INFO  GestorClienteServiceImpl:67 - pdo-356250.00115.002
+2022-04-05 02:27:39 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2023-10-05T02:27 - 2023-10-07T02:27
+2022-04-05 02:30:41 INFO  ClienteController:83 - 1718496944
+2022-04-05 02:30:41 INFO  GestorClienteServiceImpl:67 - pdb-354870.0080.501
+2022-04-05 02:30:41 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-04-30T02:30 - 2022-05-01T02:30
+2022-04-05 14:11:56 INFO  ClienteController:85 - 1718496944
+2022-04-05 14:11:56 INFO  GestorClienteServiceImpl:67 - pdo-356250.001437.5025
+2022-04-05 14:11:56 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2024-10-05T14:11 - 2024-10-30T14:11
+2022-04-05 15:07:19 INFO  ClienteController:85 - 1718496944
+2022-04-05 15:07:19 INFO  GestorClienteServiceImpl:67 - pdo-356250.00-1667.50-29
+2022-04-05 15:07:19 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-05-09T00:00 - 2022-04-10T00:00
+2022-04-05 15:08:02 INFO  ClienteController:85 - 1718496944
+2022-04-05 15:08:02 INFO  GestorClienteServiceImpl:67 - pdo-356250.00-1667.50-29
+2022-04-05 15:08:02 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2022-05-09T00:00 - 2022-04-10T00:00
+2022-04-05 15:08:25 INFO  ClienteController:85 - 1718496944
+2022-04-05 15:09:15 INFO  ClienteController:85 - 1718496944
+2022-04-05 15:10:16 INFO  ClienteController:85 - 1718496944
+2022-04-05 15:10:16 INFO  GestorClienteServiceImpl:67 - pdb-354870.001851.5023
+2022-04-05 15:10:16 INFO  GestorClienteServiceImpl:68 - Tiempo Fechas: 2024-10-09T15:09 - 2024-11-01T15:10

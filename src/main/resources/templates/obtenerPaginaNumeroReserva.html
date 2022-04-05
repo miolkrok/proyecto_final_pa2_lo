@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title>Budget</title>
+</head>
+
+<body>
+	<div class="container">
+		<br>
+		<h1>Retirar un vehículo reservado</h1>
+		<br>
+		<form action="#" th:action="@{/empleado/obtenerNumeroReserva}" class="form-group" method="post">
+			<div class="form-group">
+				<label for="numeroReserva">Numero de reserva: </label>
+				<input type="text" class="form-control" id="numeroReserva" th:name="numeroReserva" name="numeroReserva">
+			</div>
+			<br>
+			<button type="submit" class="btn btn-warning">Buscar</button>
+		</form>
+		<br>
+		<h2 th:if="${!buscarRetiro}">No hay resultado</h2>
+	</div>
+
+
+	<div th:if=" ${buscarRetiro}">
+
+		<h1>Reporte vehículo</h1>
+		<table class="table">
+			<thead>
+
+				<tr>
+					<td>Placa</td>
+					<td th:text="${vehiculo.placa}"></td>
+				</tr>
+				<tr>
+					<td>Modelo</td>
+					<td th:text="${vehiculo.modelo}"></td>
+				</tr>
+				<tr>
+					<td>Estado</td>
+					<td th:text="${vehiculo.estado}"></td>
+				</tr>
+				<tr>
+					<td>Fecha Inicio</td>
+					<td th:text="${retirarVehiculoTO.fechaInicio}"></td>
+				</tr>
+				<tr>
+					<td>Fecha Final</td>
+					<td th:text="${retirarVehiculoTO.fechaFinal}"></td>
+				</tr>
+				<tr>
+					<td>Cedula</td>
+					<td th:text="${cliente.cedula}"></td>
+				</tr>
+
+		</table>
+	</div>
+
+</body>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+</head>
+
+<body>
+	<table>
+		<!--Fila del ID-->
+		<tr>
+			<td th:text="'ID:'" />
+			<td th:text="${vehiculo.id}" />
+		</tr>
+		<!--Fila del Placa-->
+		<tr>
+			<td th:text="'Placa:'" />
+			<td th:text="${vehiculo.placa}" />
+		</tr>
+		<!--Fila del Modelo-->
+		<tr>
+			<td th:text="'Modelo:'" />
+			<td th:text="${vehiculo.modelo}" />
+		</tr>
+				<!--Fila del Marca-->
+		<tr>
+			<td th:text="'Marca:'" />
+			<td th:text="${vehiculo.marca}" />
+		</tr>
+				<!--Fila del Año de Fabricacion-->
+		<tr>
+			<td th:text="'Año de Fabricacion:'" />
+			<td th:text="${vehiculo.anioFabricacion}" />
+		</tr>
+				<!--Fila del Cilindraje-->
+		<tr>
+			<td th:text="'Cilindraje:'" />
+			<td th:text="${vehiculo.cilindraje}" />
+		</tr>
+				<!--Fila del Avaluo-->
+		<tr>
+			<td th:text="'Avaluo:'" />
+			<td th:text="${vehiculo.avaluo}" />
+		</tr>
+				<!--Fila del Estado-->
+		<tr>
+			<td th:text="'Estado:'" />
+			<td th:text="${vehiculo.estado}" />
+		</tr>
+				<!--Fila del Valor por Dia-->
+		<tr>
+			<td th:text="'Valor por Dia:'" />
+			<td th:text="${vehiculo.valorDia}" />
+		</tr>
+	</table>
+</body>
+
+</html>
