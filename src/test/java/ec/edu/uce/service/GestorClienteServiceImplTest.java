@@ -1,5 +1,6 @@
 package ec.edu.uce.service;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 import javax.transaction.Transactional;
@@ -26,27 +27,18 @@ class GestorClienteServiceImplTest {
 	private IVehiculoService vehiServ;
 	
 
-//	@Test
-//	void testBuscarVehiculosDisponibles() {
-//		
-//		assertEquals("chevrolet", this.vehiServ.buscarVehiculoPorMarcaModelo("chevrolet", "camaro"));
-//	}
-//
-//	@Test
-//	void testBuscarFechas() {
-//		fail("Not yet implemented");
-//	}
-//
-//	@Test
-//	void testCalcularCobro() {
-//		fail("Not yet implemented");
-//	}
-//
-//	@Test
-//	void testReservarVehiculo() {
-//		fail("Not yet implemented");
-//	}
-//
+	@Test
+	void testBuscarVehiculosDisponibles() {
+		assertThat(this.gestClientServ.buscarVehiculosDisponibles("chevrolet", "camaro")).isNotNull();
+		
+	}
+	
+	@Test
+	void testBuscarVehiculosDisponibles1() {
+		assertThat(this.gestClientServ.buscarVehiculosDisponibles("hyundai", "crossover")).isNotNull();
+		
+	}
+
 	@Test
 	void testRegistrarCliente() {
 		Cliente clie = new Cliente();
